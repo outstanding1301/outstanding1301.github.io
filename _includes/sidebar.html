@@ -7,8 +7,8 @@
   <div class="sidebar-item">
     <div class="sidebar-personal-info">
       <div class="sidebar-personal-info-section">
-        <a href="http://gravatar.com/{{ site.author.gravatar }}">
-          <img src="http://www.gravatar.com/avatar/{{ site.author.gravatar }}?s=350" title="View on Gravatar" alt="View on Gravatar" />
+        <a href="{{ site.url }}/about">
+          <img src="../public/img/kitten.jpg" title="고양이" alt="고양이" />
         </a>
       </div>
       <div class="sidebar-personal-info-section">
@@ -18,13 +18,13 @@
       {% assign len = site.author.contact | size %}
       {% assign current_index = 0 %}
       <div class="sidebar-personal-info-section">
-        <p> Follow me: 
+        <p>
         {% for contact in site.author.contact %}
         {% assign iconname = contact[0] %}
         {% if contact[0] == 'email' %}
         {% assign iconname = 'envelope' %}
         {% endif %}
-        <a href="{{ contact[1] }}">
+        <a href="{{ contact[1] }}" target="_blank">
           <i class="fa fa-{{ iconname }}" aria-hidden="true"></i>
         </a>
         {% assign current_index = current_index | plus: 1 %}
@@ -67,12 +67,11 @@
 
     {% endfor %}
 
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
 
   <div class="sidebar-item">
     <p>
-    &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. This work is liscensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.
+    &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. :)
     </p>
   </div>
 
