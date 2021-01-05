@@ -8,6 +8,7 @@ $green:    #90a959;
 $cyan:     #75b5aa;
 $blue:     #6a9fb5;
 $magenta:  #aa759f;
+$purple:  #9075aa;
 $brown:    #8f5536;
 $default:  #505050;
 
@@ -15,7 +16,7 @@ $white:      #fff;
 $lightgrey:  #eee;
 $black:      #000;
 
-$theme-color: $blue;
+$theme-color: $purple;
 $theme-color-dark: darken($theme-color, 10%);
 
 $post-date-color: #9a9a9a;
