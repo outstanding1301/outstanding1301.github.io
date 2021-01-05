@@ -7,3 +7,21 @@ title: Home
   <img src="{{ site.baseurl }}{{ site.hero.image }}" />
   <p>{{ site.hero.caption }}</p>
 </div>
+
+<div class="tags-expo">
+  <hr/>
+
+  <div class="tags-expo-section">
+    <a href="/blog/categories/"><h3>✏️ 최근 글</h3></a>
+    <ul class="tags-expo-posts">
+      {% for post in site.posts offset: 0 limit: 10  %}
+      <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+        <li>
+          {{ post.title }}
+          <small class="post-date">{{ post.date | date_to_string }}</small>
+        </li>
+      </a>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

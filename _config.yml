@@ -2,7 +2,7 @@
 title: outstandingboy
 tagline: '개발, 공부 등등'
 description: '<a href="http://github.com/outstanding1301" target="_blank">outstandingboy</a>의 블로그입니다.'
-baseurl: "/"
+baseurl: ""
 url: http://outstanding1301.github.io
 logo: '/public/logo.png'
 
@@ -35,9 +35,13 @@ nav:
   Home:           
     - '/'
   Blog:           
-    - '/blog/'
-    - { Categories: '/blog/categories/' }
-    - { Tags: '/blog/tags/' }
+    - '/blog/categories/'
+    # - { Categories: '/blog/categories/' }
+    - { TIL (Today I Learned): '/blog/categories/#til' }
+    - { Java: '/blog/categories/#java' }
+    - { git: '/blog/categories/#git' }
+    - { 잡다한 이야기: '/blog/categories/#etc' }
+    # - { Tags: '/blog/tags/' }
   About:          
     - '/about/'
   Github: 
