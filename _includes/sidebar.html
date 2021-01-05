@@ -23,10 +23,15 @@
         {% assign iconname = contact[0] %}
         {% if contact[0] == 'email' %}
         {% assign iconname = 'envelope' %}
+          <span>
+            <i class="fa fa-{{ iconname }}" aria-hidden="true"></i>
+            outstanding1301@gmail.com
+          </span>
+        {% else %}
+          <a href="{{ contact[1] }}" target="_blank">
+            <i class="fa fa-{{ iconname }}" aria-hidden="true"></i>
+          </a>
         {% endif %}
-        <a href="{{ contact[1] }}" target="_blank">
-          <i class="fa fa-{{ iconname }}" aria-hidden="true"></i>
-        </a>
         {% assign current_index = current_index | plus: 1 %}
         {% if current_index != len %}|{% endif %}
         {% endfor %}
