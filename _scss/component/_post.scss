@@ -6,16 +6,20 @@
   }
 
   @media (min-width: 38rem) {
-    font-size: .8rem;
+    font-size: .9rem;
 
     h1 { font-size: 1.6rem; }
     h2 { 
       margin: 2em 0 1em 0;
-      font-size: 1.0rem; 
+      font-size: 1.2rem; 
     }
-    h3, h4, h5, h6 {
+    h3 {
       margin: 2em 0 1em 0;
-      font-size: 0.8rem;
+      font-size: 1rem;
+    }
+    h4, h5, h6 {
+      margin: 2em 0 1em 0;
+      font-size: .9rem;
     }
   }
 
@@ -41,6 +45,14 @@
 
   article {
     line-height: 1.4rem;
+  }
+
+  blockquote {
+    font-size: .8rem;
+  }
+
+  code {
+    font-size: .7rem;
   }
 }
 
