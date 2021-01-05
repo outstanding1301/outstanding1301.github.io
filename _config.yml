@@ -1,0 +1,58 @@
+# Site Info
+title: outstandingboy
+tagline: 'outstandingboy의 블로그'
+description: '<a href="http://github.com/outstanding1301" target="_blank">outstandingboy</a>의 블로그입니다.'
+baseurl: "/"
+url: http://outstanding1301.github.io
+logo: '/public/logo.png'
+
+# Site configurations
+gems:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss    
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+
+version: 1.0.0
+
+# About/contact
+author:
+  name: outstandingboy
+  description: 개발자 아웃스탠딩보이의 개발, 공부 등등 수록
+  contact:
+    github:    https://github.com/outstanding1301
+    email:     outstanding1301@gmail.com
+
+# Navigation (2nd level links supported)
+nav:
+  Home:           
+    - '/'
+  Blog:           
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
+  About:          
+    - '/about/'
+  Github: 
+    - 'https://github.com/outstanding1301/'
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+hero:
+  image: /public/img/we_will_be_giants_by_yalestewart.jpg
+  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
+disqus_short_name: 'outstandingboy' # leave blank if you don't want disqus
+
