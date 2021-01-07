@@ -34,7 +34,17 @@ layout: default
   </ul>
 </div>
 
-{% if site.disqus_short_name %}
+<!-- utterances comment -->
+<script src="https://utteranc.es/client.js"
+        repo="outstanding1301/blog-comments"
+        issue-term="pathname"
+        label="comments"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+<!-- {% if site.disqus_short_name %}
 <div class="comments">
   <h2>Comments</h2>
   <div id="disqus_thread"></div>
@@ -52,7 +62,8 @@ var disqus_config = function () {
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </div>
-{% endif %}
+{% endif %} -->
+
 <script>
   function getTOCNodes(master) {
     var nodes = Array.prototype.slice.call(master.getElementsByTagName("*"), 0);
