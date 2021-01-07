@@ -2,9 +2,6 @@
 layout: default
 ---
 <div class="post">
-  <div class="toc">
-    TOC
-  </div>
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {% if page.tags %} | 
@@ -12,7 +9,10 @@ layout: default
     <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
   {% endfor %}
   {% endif %}
-  <article>
+  <article class="post-article">
+    <div class="toc">
+      {% include toc.html html=content %}
+    </div>
     {{ content }}
   </article>
 </div>
@@ -53,16 +53,83 @@ var disqus_config = function () {
 </div>
 {% endif %}
 <script>
+  function getTOCNodes(master) {
+    var nodes = Array.prototype.slice.call(master.getElementsByTagName("*"), 0);
+    var tocNodes = nodes.filter(function(elem) {
+        return elem.tagName == "A";
+    });
+    return tocNodes;
+  }
+  function getHeaderNodes(master) {
+    var nodes = Array.prototype.slice.call(master.getElementsByTagName("*"), 0);
+    var tocNodes = nodes.filter(function(elem) {
+        return elem.tagName.startsWith("H");
+    });
+    return tocNodes;
+  }
+
+  var title = document.getElementsByClassName("post-title")[0];
+  var titleY = window.pageYOffset + title.getBoundingClientRect().top;
+  
+  var article = document.getElementsByClassName("post-article")[0];
+  var articleY = window.pageYOffset + article.getBoundingClientRect().top;
+
+  var masthead = document.getElementsByClassName("masthead")[0];
+
+  var toc = document.getElementsByClassName("toc")[0];
+
+  var headerNodes = getHeaderNodes(article);
+  var tocNodes = getTOCNodes(toc);
+
+  var before = undefined;
+
   document.addEventListener('scroll', function(e) {
-    var article = document.getElementsByClassName("post-title")[0];
-    var articleY = window.pageYOffset + article.getBoundingClientRect().top;
-    if (window.scrollY >= articleY) {
-      var masthead = document.getElementsByClassName("masthead")[0];
+    if (window.scrollY >= titleY) {
       masthead.classList.add("masthead-hide");
     }
     else {
-      var masthead = document.getElementsByClassName("masthead")[0];
       masthead.classList.remove("masthead-hide");
     }
+
+    if (window.scrollY >= articleY-60) {
+      toc.style.cssText = "position: fixed; top: 60px;";
+    }
+    else {
+      toc.style.cssText = "";
+    }
+
+    var current = headerNodes.filter(function(header) {
+      var headerY = window.pageYOffset + header.getBoundingClientRect().top;
+      return window.scrollY >= headerY - 60;
+    });
+
+    if (current.length > 0) {
+      current = current[current.length-1];
+
+      var currentA = tocNodes.filter(function(tocNode) {
+        return tocNode.innerHTML == current.innerHTML;
+      })
+      
+      currentA = currentA[0];
+      if (currentA) {
+        if (before == undefined) before = currentA;
+
+        if (before != currentA) {
+          before.classList.remove("toc-active");
+          before = currentA;
+        }
+
+        currentA.classList.add("toc-active");
+      }
+      else {
+        if (before) 
+          before.classList.remove("toc-active");
+      }
+    }
+    else {
+      if (before) 
+          before.classList.remove("toc-active");
+    }
+
   }, false);
 </script>

@@ -68,7 +68,7 @@ git push origin master
 
 [https://블로그주소/sitemap.xml](https://outstanding1301.github.io/sitemap.xml) 에 접속해 `sitemap.xml`이 정상적으로 등록되었는지 확인한다.
 
-### 이제 Google Search Console에 사이트맵을 제출하면 된다.
+> 이제 Google Search Console에 사이트맵을 제출하면 된다.
 
 ![사이트맵](https://github.com/outstanding1301/outstanding1301.github.io/blob/master/imgs/git/2021-01-07-google-search-engine/sitemap-1.png?raw=true)
 
