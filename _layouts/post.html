@@ -11,6 +11,7 @@ layout: default
   {% endif %}
   <article class="post-article">
     <div class="toc">
+      <a href="#">&lt;맨 위로&gt;</a>
       {% include toc.html html=content %}
     </div>
     {{ content }}
@@ -63,7 +64,7 @@ var disqus_config = function () {
   function getHeaderNodes(master) {
     var nodes = Array.prototype.slice.call(master.getElementsByTagName("*"), 0);
     var tocNodes = nodes.filter(function(elem) {
-        return elem.tagName.startsWith("H");
+        return elem.tagName == "H1" || elem.tagName == "H2" || elem.tagName == "H3" || elem.tagName == "H4" || elem.tagName == "H5" || elem.tagName == "H6";
     });
     return tocNodes;
   }
