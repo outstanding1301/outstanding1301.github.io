@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "[Git] 커밋 메세지 규약 정리 (the AngulerJS commit conventions)"
+title: "[Git] 커밋 메시지 규약 정리 (the AngulerJS commit conventions)"
 category: git
 tags: [git]
 comments: true
 ---
 
-🚀 커밋 메세지 규약
+🚀 커밋 메시지 규약
 ==========================
 이 문서는 [the AngulerJS commit conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/)를 번역한 것입니다.
 > 🖋 번역 : [outstandingboy](https://github.com/outstanding1301)
 > 공부하면서 번역했습니다. 입맛대로 번역된 부분이나 오역이 있을 수 있습니다.  
-> [Angular 9의 커밋 메세지 규약](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format)을 추가했습니다.
+> [Angular 9의 커밋 메시지 규약](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format)을 추가했습니다.
 
 ## 📌 목차
 
@@ -19,13 +19,13 @@ comments: true
 * [CHANGELOG.md 생성](#-changelogmd-생성)
   * [중요하지 않은 커밋 식별](#-중요하지-않은-커밋-식별)
   * [히스토리 탐색 시 더 많은 정보 제공](#-히스토리를-조회할-때-더-많은-정보를-제공)
-* [커밋 메세지의 형식](#-커밋-메세지의-형식)
-  * [커밋 메세지 헤더 (Commit Message Header)](#커밋-메세지-헤더-commit-message-header)
+* [커밋 메시지의 형식](#-커밋-메시지의-형식)
+  * [커밋 메시지 헤더 (Commit Message Header)](#커밋-메시지-헤더-commit-message-header)
     * [`<type>`에 들어갈 수 있는 항목들](#type에-들어갈-수-있는-항목들)
     * [`<scope>`에 들어갈 수 있는 항목들](#scope에-들어갈-수-있는-항목들)
     * [`<short summary>` 요약 설명](#short-summary-요약-설명)
-  * [메세지 내용 (Message Body)](#메세지-내용-message-body)
-  * [메세지 하단 (Message Footer)](#메세지-하단-message-footer)
+  * [메시지 내용 (Message Body)](#메시지-내용-message-body)
+  * [메시지 하단 (Message Footer)](#메시지-하단-message-footer)
     * [주요 변경 내역들 (Breaking Changes)](#주요-변경-내역들-breaking-changes)
     * [해결된 이슈 (Referencing Issues)](#해결된-이슈-referencing-issues)
   * [예시](#예시)
@@ -52,7 +52,7 @@ comments: true
 물론, 실제로 배포하기 전에 변경 내역을 수정하고 배포할 수도 있습니다.
 
 최근 배포 이후의 **제목** 목록을 출력합니다.
-> 제목(subject) : 커밋 메세지의 첫번째 줄
+> 제목(subject) : 커밋 메시지의 첫번째 줄
 ```bash
 git log <last tag> HEAD --pretty=format:%s
 ```
@@ -93,17 +93,17 @@ git bisect skip $(git rev-list --grep irrelevant <good place> HEAD)
 * Replaced double line break with single when text is fetched from Google
 * Added support for properties in documentation
 
-모든 메세지들이 어떤 변경이 발생했는지 명시하려 하지만  
+모든 메시지들이 어떤 변경이 발생했는지 명시하려 하지만  
 공통적인 규약이 있는 것 같지는 않습니다.
 
-다음 메세지들을 봅시다 :
+다음 메시지들을 봅시다 :
 * fix comment stripping
 * fixing broken links
 * Bit of refactoring
 * Check whether links do exist and throw exception
 * Fix sitemap include (to work on case sensitive linux)
 
-이 메세지만 보고는 어느 부분이 변했는지 알 수 없습니다.  
+이 메시지만 보고는 어느 부분이 변했는지 알 수 없습니다.  
 따라서 docs, docs-parser, compiler, senario-runner와 같이 어디가 변경됐는지 알려주는게 좋겠죠.
 
 물론, 변경된 파일들을 일일히 찾아보면 알 수 있겠죠... 하지만 그건 느립니다.  
@@ -111,7 +111,7 @@ git bisect skip $(git rev-list --grep irrelevant <good place> HEAD)
 
 ---
 
-⚡ 커밋 메세지의 형식
+⚡ 커밋 메시지의 형식
 ----------------------------
 ```
 <type>(<scope>): <short summary>
@@ -121,19 +121,19 @@ git bisect skip $(git rev-list --grep irrelevant <good place> HEAD)
 <footer>
 ```
 
-커밋 메세지의 각 줄은 100자를 넘기지 말아야 합니다. 그래야 읽기 쉽습니다.
+커밋 메시지의 각 줄은 100자를 넘기지 말아야 합니다. 그래야 읽기 쉽습니다.
 
-> 커밋 메세지를 작성하기 위한 도구들입니다.
+> 커밋 메시지를 작성하기 위한 도구들입니다.
 > [✨outstandingboy's commit script✨](https://github.com/outstanding1301/commit)
 > [IntelliJ IDEA의 Git Commit Template 플러그인](https://plugins.jetbrains.com/plugin/9861-git-commit-template)
 
 
-### 커밋 메세지 헤더 (Commit Message Header)
-> [Angular 9 규약](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit-message-header)에서는 제목 행 (Subject Line)을 커밋 메세지 헤더 (Commit Message Header)로 정의했습니다.
+### 커밋 메시지 헤더 (Commit Message Header)
+> [Angular 9 규약](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit-message-header)에서는 제목 행 (Subject Line)을 커밋 메시지 헤더 (Commit Message Header)로 정의했습니다.
 > 또한 subject를 short summary로 표현했습니다.
 
 ```
-커밋 메세지 헤더
+커밋 메시지 헤더
 <type>(<scope>): <short summary>
   │       │             │
   │       │             └─⫸ 명령문, 현재 시제로 작성합니다. 대문자를 사용하지 않으며, 마침표로 끝내지 않습니다.
@@ -147,7 +147,7 @@ git bisect skip $(git rev-list --grep irrelevant <good place> HEAD)
   └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|test
 The <type> and <summary> fields are mandatory, the (<scope>) field is optional.
 ```
-커밋 메세지의 첫번째 줄인 커밋 메세지 헤더는 변화에 대한 간결한 설명을 포함합니다.
+커밋 메시지의 첫번째 줄인 커밋 메시지 헤더는 변화에 대한 간결한 설명을 포함합니다.
 
 #### `<type>`에 들어갈 수 있는 항목들
 * feat : 새로운 기능 추가
@@ -176,14 +176,14 @@ scope는 생략 가능합니다.
 * 첫글자를 대문자로 쓰지 마세요. 소문자로 쓰세요.
 * 마지막에 마침표(.)를 붙이지 마세요
 
-### 메세지 내용 (Message Body)
+### 메시지 내용 (Message Body)
 * 명령문, 현재 시제로 작성하길 권장합니다.
 * 변경한 이유와 변경 전과의 차이점을 설명합니다.
 
 http://365git.tumblr.com/post/3308646748/writing-git-commit-messages
 http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 
-### 메세지 하단 (Message Footer)
+### 메시지 하단 (Message Footer)
 
 #### 주요 변경 내역들 (Breaking Changes)
 모든 주요 변경 내역들은 다음과 함께 하단에 언급되어야 합니다.
@@ -193,7 +193,7 @@ http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 
 #### 해결된 이슈 (Referencing Issues)
 
-해결된 이슈는 커밋 메세지 하단에 `Closes #<이슈번호>` 와 같이 기록되어야 합니다.
+해결된 이슈는 커밋 메시지 하단에 `Closes #<이슈번호>` 와 같이 기록되어야 합니다.
 ```
 Closes #234
 ```
