@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
-
 <div class="post">
+  <div class="toc">
+    TOC
+  </div>
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {% if page.tags %} | 
@@ -50,3 +52,17 @@ var disqus_config = function () {
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </div>
 {% endif %}
+<script>
+  document.addEventListener('scroll', function(e) {
+    var article = document.getElementsByClassName("post-title")[0];
+    var articleY = window.pageYOffset + article.getBoundingClientRect().top;
+    if (window.scrollY >= articleY) {
+      var masthead = document.getElementsByClassName("masthead")[0];
+      masthead.classList.add("masthead-hide");
+    }
+    else {
+      var masthead = document.getElementsByClassName("masthead")[0];
+      masthead.classList.remove("masthead-hide");
+    }
+  }, false);
+</script>

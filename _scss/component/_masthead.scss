@@ -3,8 +3,14 @@
  *
  * Super small header above the content for site name and short description.
  */
-
+.masthead-hide {
+  visibility: hidden;
+  opacity:0;
+  transition:visibility 0.2s linear,opacity 0.2s linear;
+}
 .masthead {
+  transition:visibility 0.2s linear,opacity 0.2s linear;
+
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
