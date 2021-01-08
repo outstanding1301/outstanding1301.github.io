@@ -37,7 +37,7 @@ nav:
   Blog:           
     - '/blog/categories/'
     # - { Categories: '/blog/categories/' }
-    - { TIL (Today I Learned): '/blog/categories/#til' }
+    # - { TIL (Today I Learned): '/blog/categories/#til' }
     - { Java: '/blog/categories/#java' }
     - { Spring: '/blog/categories/#spring' }
     - { git: '/blog/categories/#git' }
