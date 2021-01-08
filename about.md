@@ -4,27 +4,34 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  🚧 아직 작성중입니다. 
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+안녕하세요. 저는 outstandingboy라는 닉네임을 사용하는 개발자 **송인걸**입니다.  
 
-There are currently two themes built on Poole:
+이 블로그는 제가 공부한 것들, 느낀 것들, 개발한 것들을 소개하는 블로그입니다.  
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
 
-Learn more and contribute on [GitHub](https://github.com/poole).
 
-## Setup
+## 🤔 누구세요?
+----
 
-Some fun facts about the setup of this project include:
+![비밀입니다.](https://media.giphy.com/media/69v0ObT7bUgJWxepJt/giphy.gif)
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+그건 **개인 프라이버시**라서 알려드릴 수 없습니다.
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
-Thanks for reading!
+## 🤨 그래서, 뭘 할줄 아는데?
+----
+
+![비밀입니다.](https://media.giphy.com/media/Dw1m8lSxkXPZC/giphy.gif)
+
+제가 뭘 할줄 아냐면...
+
+
+## 😒 프로젝트는 좀 해보셨나..?
+----
+
+![비밀입니다.](https://media.giphy.com/media/y9hjvnO2bwJbO/giphy.gif)
+
+아! 프로젝트요!
