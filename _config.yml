@@ -39,6 +39,7 @@ nav:
     # - { Categories: '/blog/categories/' }
     - { TIL (Today I Learned): '/blog/categories/#til' }
     - { Java: '/blog/categories/#java' }
+    - { Spring: '/blog/categories/#spring' }
     - { git: '/blog/categories/#git' }
     - { 잡다한 이야기: '/blog/categories/#etc' }
     # - { Tags: '/blog/tags/' }
@@ -58,5 +59,3 @@ hero:
 # Puglins
 mathjax: true # whether support mathjax
 google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
-disqus_short_name: 'outstandingboy' # leave blank if you don't want disqus
-
