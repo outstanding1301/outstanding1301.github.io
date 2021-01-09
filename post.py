@@ -44,6 +44,7 @@ def main():
     post.write("tags: [%s]\n"%category)
     post.write("comments: true\n")
     post.write("---\n")
+    post.write("<!-- ![이미지](https://github.com/outstanding1301/outstanding1301.github.io/blob/master/%s/이미지파일?raw=true) -->\n"%(imgPath))
     post.close()
     print("[📄] create file %s"%postPath)
 
