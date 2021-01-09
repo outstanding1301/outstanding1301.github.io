@@ -1,0 +1,11 @@
+# hidden files
+.*
+!.github
+LICENSE.md
+*.drawio
+
+# jekyll cache
+_site
+vendor
+
+_templates
