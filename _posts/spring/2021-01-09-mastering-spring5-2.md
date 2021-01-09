@@ -10,7 +10,7 @@ comments: true
 
 ## 📚 시리즈 - 스프링 5.0
 1. [왜 스프링 프레임워크를 사용할까? (Spring vs EJB, JavaEE)](https://outstanding1301.github.io/spring/2021/01/08/mastering-spring5-1/)
-2. [스프링 프레임워크의 주요 모듈들](https://outstanding1301.github.io/spring/2021/01/08/mastering-spring5-2/)
+2. [스프링 프레임워크의 주요 모듈들](https://outstanding1301.github.io/spring/2021/01/09/mastering-spring5-2/)
 
 ----
 
