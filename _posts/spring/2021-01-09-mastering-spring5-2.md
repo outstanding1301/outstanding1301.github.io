@@ -22,11 +22,9 @@ comments: true
 이번에는 스프링 프레임워크의 주요 모듈들에 대해 살펴보도록 하겠다.
 
 ----
-<center>
 
 ![모듈](https://github.com/outstanding1301/outstanding1301.github.io/blob/master/imgs/spring/2021-01-09-mastering-spring5-2/modules.png?raw=true)
 
-</center>
 
 1. 스프링 코어 컨테이너 (Spring Core Container)
 2. 횡단 관심 (Crosscutting Concerns)
