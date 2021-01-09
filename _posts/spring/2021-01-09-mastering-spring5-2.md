@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "[Spring] 스프링 프레임워크의 주요 모듈들"
+title: "[Spring] 스프링 프레임워크의 주요 모듈들을 알아보자"
 category: spring
 tags: [spring, java, web, di, ioc, aop]
 comments: true
 ---
 <!-- ![이미지](https://github.com/outstanding1301/outstanding1301.github.io/blob/master/imgs/spring/2021-01-09-mastering-spring5-2/이미지파일?raw=true) -->
-# ☘️ 왜 스프링 프레임워크를 사용할까?
+# ☘️ 스프링 프레임워크의 주요 모듈들
 
 ## 📚 시리즈 - 스프링 5.0
 1. [왜 스프링 프레임워크를 사용할까? (Spring vs EJB, JavaEE)](https://outstanding1301.github.io/spring/2021/01/08/mastering-spring5-1/)
