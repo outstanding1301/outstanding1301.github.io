@@ -1,4 +1,4 @@
-.post-tag {
+.post-category {
   display: inline-block;
   background: rgba($theme-color, 0.15);
   padding: 0 .5rem;
@@ -15,6 +15,28 @@
   &:hover {
     text-decoration: none;
     background: $theme-color;
+    color: $white;
+  }
+  @include transition(all .1s ease-in-out);
+}
+
+.post-tag {
+  display: inline-block;
+  background: rgba($green, 0.15);
+  padding: 0 .5rem;
+  margin-right: .5rem;
+  border-radius: 4px;
+  color: $green;
+  font-family: $font-sans;
+  font-size: 90%;
+  &:before {
+    content: "\f02b";
+    font-family: $font-font-awesome;
+    padding-right: .5em;
+  }
+  &:hover {
+    text-decoration: none;
+    background: $green;
     color: $white;
   }
   @include transition(all .1s ease-in-out);
