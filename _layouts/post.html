@@ -2,20 +2,9 @@
 layout: default
 ---
 <div class="post">
-
-  {% assign foundImage = 0 %}
-    {% assign images = content | split:"<img " %}
-    {% for image in images %}
-      {% if image contains 'src' %}
-          {% if foundImage == 0 %}
-              {% assign thumbnail = image | split:"/>" | first %}
-              <img width="250" {{ thumbnail }} />
-              <!-- <meta property="og:image" content='{{ thumbnail }}''> -->
-              {% assign foundImage = 1 %}
-          {% endif %}
-      {% endif %}
-    {% endfor %}
-
+  {% if page.thumbnail %}
+    <img alt="{{ page.title }}" src="{{ page.thumbnail }}"/>
+  {% endif %}
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {% if page.tags %} | 
