@@ -2,9 +2,6 @@
 layout: default
 ---
 <div class="post">
-  {% if page.thumbnail %}
-    <img alt="{{ page.title }}" src="{{ page.thumbnail }}"/>
-  {% endif %}
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {% if page.tags %} | 
@@ -17,6 +14,13 @@ layout: default
       <a href="#">&lt;맨 위로&gt;</a>
       {% include toc.html html=content %}
     </div>
+    
+    {% if page.thumbnail %}
+    <center>
+      <img  alt="{{ page.title }}" src="{{ page.thumbnail }}"/>
+    </center>
+    {% endif %}
+
     {{ content }}
   </article>
 </div>
