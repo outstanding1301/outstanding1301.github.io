@@ -14,6 +14,9 @@
     {% if page.summary %}
       <meta property="og:description" content="{{ page.summary }}">
     {% endif %}
+    {% if page.thumbnail %}
+      <meta property="og:image" content="{{ page.thumbnail }}">
+    {% endif %}
   {% endif %}
   
 
