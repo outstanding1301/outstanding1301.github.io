@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Git] 커밋 메시지 규약 정리 (the AngularJS commit conventions)"
+summary: "어떻게 하면 효과적인 커밋 메시지를 작성할 수 있을까? AngularJS 팀의 커밋 메시지 규약을 번역 및 정리했습니다."
 category: dev
 tags: [git]
 comments: true

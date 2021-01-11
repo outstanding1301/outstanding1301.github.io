@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Github] 블로그에 댓글 기능 추가하기 (ft. Utterances)"
+summary: "Utterances를 사용하여 블로그에 Github Issues 기반 댓글 기능을 추가하는 방법을 정리했습니다."
 category: dev
 tags: [git, blog, github, jekyll, utterances]
 comments: true

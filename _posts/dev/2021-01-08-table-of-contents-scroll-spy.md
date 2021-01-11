@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Github] 블로그 포스트에 스크롤에 따른 목차(Table of Contents, TOC)를 띄우는 ScrollSpy 기능 구현하기"
+summary: "스크롤에 따른 목차(Table of Contents, TOC)를 띄우는 ScrollSpy 기능을 구현하는 방법을 정리했습니다."
 category: dev
 tags: [git, blog, github, jekyll]
 comments: true

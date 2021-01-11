@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Spring] 스프링 프레임워크의 주요 모듈들을 알아보자"
+summary: "코어, 횡단 관심, 웹, 비즈니스, 데이터로 구성된 스프링 프레임워크의 주요 모듈들을 정리했습니다."
 category: dev
 tags: [spring]
 comments: true

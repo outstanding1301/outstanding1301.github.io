@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Spring] 왜 스프링 프레임워크를 사용할까? (Spring vs EJB, JavaEE)"
+summary: "스프링 프레임워크의 특징 및 장점을 정리했습니다."
 category: dev
 tags: [spring]
 comments: true
