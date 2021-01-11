@@ -2,7 +2,7 @@
 layout: post
 title: "[리뷰] 맛있닭 더담은 도시락 - 다섯가지나물밥 & 갈릭스테이크소스 닭가슴살"
 category: etc
-tags: [etc, food, 도시락]
+tags: [food, review]
 comments: true
 ---
 

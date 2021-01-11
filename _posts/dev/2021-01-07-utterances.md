@@ -2,7 +2,7 @@
 layout: post
 title: "[Github] 블로그에 댓글 기능 추가하기 (ft. Utterances)"
 category: dev
-tags: [git, blog, github, jekyll, comment, utterances]
+tags: [git, blog, github, jekyll, utterances]
 comments: true
 ---
 

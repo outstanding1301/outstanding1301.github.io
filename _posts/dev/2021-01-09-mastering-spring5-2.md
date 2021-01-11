@@ -2,7 +2,7 @@
 layout: post
 title: "[Spring] 스프링 프레임워크의 주요 모듈들을 알아보자"
 category: dev
-tags: [spring, java, web, di, ioc, aop]
+tags: [spring]
 comments: true
 ---
 <!-- ![이미지](https://github.com/outstanding1301/outstanding1301.github.io/blob/master/imgs/spring/2021-01-09-mastering-spring5-2/이미지파일?raw=true) -->
