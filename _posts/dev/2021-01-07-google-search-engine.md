@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "[Github] 구글 검색 엔진에 내 블로그 등록하기"
-category: git
-tags: [git, blog, github, jekyll]
+category: dev
+tags: [git, blog, github, jekyll, seo]
 comments: true
 ---
 

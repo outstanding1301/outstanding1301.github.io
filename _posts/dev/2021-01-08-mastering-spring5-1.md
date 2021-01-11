@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Spring] 왜 스프링 프레임워크를 사용할까? (Spring vs EJB, JavaEE)"
-category: spring
+category: dev
 tags: [spring, java, web]
 comments: true
 ---

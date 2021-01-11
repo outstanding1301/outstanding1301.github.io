@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Git] 커밋 메시지 규약 정리 (the AngularJS commit conventions)"
-category: git
+category: dev
 tags: [git]
 comments: true
 ---
@@ -15,20 +15,22 @@ comments: true
 
 ## 📌 목차
 
-* [목표](#-목표)
-* [CHANGELOG.md 생성](#-changelogmd-생성)
-  * [중요하지 않은 커밋 식별](#-중요하지-않은-커밋-식별)
-  * [히스토리 탐색 시 더 많은 정보 제공](#-히스토리를-조회할-때-더-많은-정보를-제공)
-* [커밋 메시지의 형식](#-커밋-메시지의-형식)
-  * [커밋 메시지 헤더 (Commit Message Header)](#커밋-메시지-헤더-commit-message-header)
-    * [`<type>`에 들어갈 수 있는 항목들](#type에-들어갈-수-있는-항목들)
-    * [`<scope>`에 들어갈 수 있는 항목들](#scope에-들어갈-수-있는-항목들)
-    * [`<short summary>` 요약 설명](#short-summary-요약-설명)
-  * [메시지 내용 (Message Body)](#메시지-내용-message-body)
-  * [메시지 하단 (Message Footer)](#메시지-하단-message-footer)
-    * [주요 변경 내역들 (Breaking Changes)](#주요-변경-내역들-breaking-changes)
-    * [해결된 이슈 (Referencing Issues)](#해결된-이슈-referencing-issues)
-  * [예시](#예시)
+- [🚀 커밋 메시지 규약](#-커밋-메시지-규약)
+  - [📌 목차](#-목차)
+  - [⚽ 목표](#-목표)
+  - [✏ CHANGELOG.md 생성](#-changelogmd-생성)
+    - [😒 중요하지 않은 커밋 식별](#-중요하지-않은-커밋-식별)
+    - [📃 히스토리를 조회할 때 더 많은 정보를 제공](#-히스토리를-조회할-때-더-많은-정보를-제공)
+  - [⚡ 커밋 메시지의 형식](#-커밋-메시지의-형식)
+    - [커밋 메시지 헤더 (Commit Message Header)](#커밋-메시지-헤더-commit-message-header)
+      - [`<type>`에 들어갈 수 있는 항목들](#type에-들어갈-수-있는-항목들)
+      - [`<scope>`에 들어갈 수 있는 항목들](#scope에-들어갈-수-있는-항목들)
+      - [`<short summary>` 요약 설명](#short-summary-요약-설명)
+    - [메시지 내용 (Message Body)](#메시지-내용-message-body)
+    - [메시지 하단 (Message Footer)](#메시지-하단-message-footer)
+      - [주요 변경 내역들 (Breaking Changes)](#주요-변경-내역들-breaking-changes)
+      - [해결된 이슈 (Referencing Issues)](#해결된-이슈-referencing-issues)
+  - [예시](#예시)
   
 ⚽ 목표
 -----
