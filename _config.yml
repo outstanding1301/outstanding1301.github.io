@@ -38,11 +38,12 @@ nav:
     - '/blog/categories/'
     # - { Categories: '/blog/categories/' }
     # - { TIL (Today I Learned): '/blog/categories/#til' }
+    - { dev: '/blog/categories/#dev' }
     - { Java: '/blog/categories/#java' }
     - { Spring: '/blog/categories/#spring' }
     - { git: '/blog/categories/#git' }
     - { 잡다한 이야기: '/blog/categories/#etc' }
-    # - { Tags: '/blog/tags/' }
+    - { Tags: '/blog/tags/' }
   About:          
     - '/about/'
   Github: 
