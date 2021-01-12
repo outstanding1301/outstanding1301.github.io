@@ -42,6 +42,7 @@ def main():
     post.write('layout: post\n')
     post.write('title: "TITLE"\n')
     post.write('summary: "SUMMARY"\n')
+    post.write('thumbnail: "https://media.giphy.com/media/xU9TT471DTGJq/giphy.gif"\n')
     post.write("category: %s\n"%category)
     post.write("tags: []\n")
     post.write("comments: true\n")
