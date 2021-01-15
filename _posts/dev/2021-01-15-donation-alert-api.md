@@ -22,7 +22,7 @@ sitemap:
 
 오래 알고지내는 [한 마인크래프트 유튜버](https://www.youtube.com/user/koyeyu)가 혹시 트윕 후원 내용을 마인크래프트로 보여줄 수 없냐고 물어봐서 만들게 되었다.
 
-> <iframe width="560" height="315" src="https://www.youtube.com/embed/ma5XgTHeCyg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ma5XgTHeCyg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 >    
 > 그리고 이렇게 쓰였다.  
 > 참고로 이 영상의 0:45초에 나오는 **염료**가 마인크래프트 평행세계의 나다.
