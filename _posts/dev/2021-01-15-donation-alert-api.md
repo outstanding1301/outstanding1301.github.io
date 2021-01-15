@@ -24,7 +24,8 @@ sitemap:
 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/ma5XgTHeCyg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 >    
-> 그리고 이렇게 쓰였다.
+> 그리고 이렇게 쓰였다.  
+> 참고로 이 영상의 0:45초에 나오는 **염료**가 마인크래프트 평행세계의 나다.
 
 그래서.. 사실 만든지는 1년정도 됐다.  
 
