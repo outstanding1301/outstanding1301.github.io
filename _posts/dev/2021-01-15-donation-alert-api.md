@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Java] 트위치 후원 알림 API (ft. Twip, Toonation)"
+title: "[Java] 트위치 후원 알림 API (Twip, Toonation API)"
 summary: "트윕과 투네이션의 후원 알림을 받아올 수 있는 Java API를 만들어봤습니다."
 thumbnail: "https://camo.githubusercontent.com/be236b497b774e34606403d363620dacb54a61d8dbe17028bfe06cd51ccf0b65/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f336f726966316573496e56546468614e736b2f67697068792e676966"
 category: dev
@@ -13,9 +13,9 @@ sitemap:
   priority: 1.0
 ---
 
-# 💸 DonationAlertAPI
+# 💸 Donation Alert API
 
-오늘은 [내가 만든 트위치 후원 알림 API](https://github.com/outstanding1301/DonationAlertAPI)를 소개하려고 한다.  
+오늘은 [내가 만든 트위치 후원 알림 API](https://github.com/outstanding1301/donation-alert-api)를 소개하려고 한다.  
 정확히 말하자면, [Twip](http://twip.kr/)과 [Toonation](https://toon.at/)의 Alertbox 알림을 받아올 수 있는 API이다.  
 
 ### 😎 왜 만들게 되었나!  
@@ -54,13 +54,13 @@ sitemap:
 
 <hr>
 
-## ✨ 소개합니다. DonationAlertAPI
+## ✨ 소개합니다. Donation Alert API
 
 [Twip](http://twip.kr/), [Toonation](https://toon.at/)의 후원 알림(Alertbox)을 받아올 수 있는 RxJava 기반 Java API  
 
 ![so much money](https://media.giphy.com/media/3orif1esInVTdhaNsk/giphy.gif)
 
-> [outstandingboy/DonationAlertAPI](https://github.com/outstanding1301/DonationAlertAPI)  
+> [outstandingboy/DonationAlertAPI](https://github.com/outstanding1301/donation-alert-api)  
 
 ----
 
@@ -74,7 +74,7 @@ repositories {
 
 dependencies {
     ...
-    compile 'com.github.outstanding1301:DonationAlertAPI:1.0.0'
+    compile 'com.github.outstanding1301:donation-alert-api:1.0.0'
 }
 ```
 
