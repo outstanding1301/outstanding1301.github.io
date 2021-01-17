@@ -2,7 +2,7 @@
 layout: post
 title: "[Java] 트위치 후원 알림 API (Twip, Toonation API)"
 summary: "트윕과 투네이션의 후원 알림을 받아올 수 있는 Java API를 만들어봤습니다."
-thumbnail: "https://camo.githubusercontent.com/be236b497b774e34606403d363620dacb54a61d8dbe17028bfe06cd51ccf0b65/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f336f726966316573496e56546468614e736b2f67697068792e676966"
+thumbnail: "https://media.giphy.com/media/3orif1esInVTdhaNsk/giphy.gif"
 category: dev
 tags: [java, rxjava, twitch]
 comments: true
