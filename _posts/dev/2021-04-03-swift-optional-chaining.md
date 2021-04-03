@@ -6,8 +6,8 @@ thumbnail: "https://developer.apple.com/assets/elements/icons/swift/swift-256x25
 category: dev
 tags: [swift]
 comments: true
-date: 2021-04-03 20:23:49
-lastmod: 2021-04-03 20:23:49
+date: 2021-04-03 20:27:49
+lastmod: 2021-04-03 20:27:49
 sitemap: 
   changefreq: daily
   priority: 1.0
