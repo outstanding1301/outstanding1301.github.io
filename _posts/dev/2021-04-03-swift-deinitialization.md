@@ -8,6 +8,7 @@ tags: [swift]
 comments: true
 date: 2021-04-03 20:26:49
 lastmod: 2021-04-03 20:26:49
+series: swift
 sitemap: 
   changefreq: daily
   priority: 1.0
