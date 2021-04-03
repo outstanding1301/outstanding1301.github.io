@@ -100,3 +100,40 @@ struct Animal {
 	}
 }
 ```
+
+### 필수 초기자
+
+모든 서브클래스에서 반드시 구현해야 하는 초기자, `required` 키워드를 붙여줌
+
+```swift
+class SomeClass {
+	required init() {
+		...
+	}
+}
+
+class SomeSubclass: SomeClass {
+	required init() {
+		...
+	}
+}
+```
+
+### 클로저를 이용한 기본 프로퍼티 값 설정
+```swift
+struct Gugudan {
+	let values: [Int] = {
+		var tempValues = [Int]()
+		for i in 1..9 {
+			for j in 1..9 {
+				tempValues.append(i * j)
+			}
+		}
+		return tempValues
+	}()
+	
+	subscript(i: Int, j: Int) {
+		return values[(i-1)*9 + (j-1)]
+	}
+}
+```
