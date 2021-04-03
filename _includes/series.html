@@ -1,0 +1,27 @@
+{% if page.series != nil %}
+<div class="tags-expo">
+    <h2 id="series">[{{ page.series }}] 시리즈의 포스트</h2>
+
+    <ol class="tags-expo-section">
+    {% assign sorted = site.tags[page.series] | sort %}
+    {% for post in sorted %}
+        {% if page.title == post.title %}
+            <a class="post-title" href="{{ site.baseurl }}{{ post.url }}" style="font-weight: bold;" onclick="return false">
+                <li>
+                    {{ post.title }}
+                    <small class="post-date">{{ post.date | date_to_string }}</small>
+                </li>
+            </a>
+        {% else %}
+            <a class="post-title" style="color: #777777;" href="{{ site.baseurl }}{{ post.url }}">
+                <li>
+                    {{ post.title }}
+                    <small class="post-date">{{ post.date | date_to_string }}</small>
+                </li>
+            </a>
+        {% endif %}
+    {% endfor %}
+    </ol>
+</div>
+<hr/>
+{% endif %}

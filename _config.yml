@@ -5,6 +5,7 @@ description: '<a href="http://github.com/outstanding1301" target="_blank">아웃
 baseurl: ""
 url: http://outstanding1301.github.io
 logo: '/public/logo.png'
+future: true
 
 # Site configurations
 gems:
