@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Swift] 타입캐스팅 (Type Casting)"
-summary: "Swift에서는 런타임 에러 발생 시 처리를 위해 에러의 발생(throwing), 감지(catching), 증식(propagation), 조작(manipulating)을 지원하는 일급 클래스를 제공"
+summary: "인스턴스의 타입을 확인하거나 인스턴스를 같은 계층에 있는 다른 superclass나 subclass로 취급하는 방법"
 thumbnail: "https://developer.apple.com/assets/elements/icons/swift/swift-256x256.png"
 category: dev
 tags: [swift]
