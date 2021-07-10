@@ -10,8 +10,9 @@ comments: true
 # ☘️ 스프링 프레임워크의 주요 모듈들
 
 ## 📚 시리즈 - 스프링 5.0
-1. [왜 스프링 프레임워크를 사용할까? (Spring vs EJB, JavaEE)](https://outstanding1301.github.io/spring/2021/01/08/mastering-spring5-1/)
-2. [스프링 프레임워크의 주요 모듈들](https://outstanding1301.github.io/spring/2021/01/09/mastering-spring5-2/)
+1. [왜 스프링 프레임워크를 사용할까? (Spring vs EJB, JavaEE)](https://outstanding1301.github.io/dev/2021/01/08/mastering-spring5-1/)
+2. [스프링 프레임워크의 주요 모듈들](https://outstanding1301.github.io/dev/2021/01/09/mastering-spring5-2/)
+3. [DI(Dependency Injection, 의존성 주입)와 IoC(Inversion of Control, 제어 반전)](https://outstanding1301.github.io/dev/2021/01/11/di-and-ioc/)
 
 ----
 
@@ -19,7 +20,7 @@ comments: true
 스프링 프레임워크의 주요 모듈들을 살펴보자
 
 ## 🤔 스프링 모듈?
-[지난 번 포스트](https://outstanding1301.github.io/spring/2021/01/08/mastering-spring5-1/#3-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%98-%EC%9C%A0%EC%97%B0%EC%84%B1) 에서 공부했듯이 스프링 프레임워크의 모듈성은 스프링이 인기있는 이유 중 하나다.  
+[지난 번 포스트](https://outstanding1301.github.io/dev/2021/01/08/mastering-spring5-1/#3-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%98-%EC%9C%A0%EC%97%B0%EC%84%B1) 에서 공부했듯이 스프링 프레임워크의 모듈성은 스프링이 인기있는 이유 중 하나다.  
 이번에는 스프링 프레임워크의 주요 모듈들에 대해 살펴보도록 하겠다.
 
 ----
