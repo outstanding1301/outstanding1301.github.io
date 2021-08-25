@@ -18,18 +18,36 @@ title: About
 
 ![비밀입니다.](https://media.giphy.com/media/69v0ObT7bUgJWxepJt/giphy.gif)
 
-그건 **개인 프라이버시**라서 알려드릴 수 없습니다.
+**한국산업기술대학교(KPU)** 에서 **컴퓨터공학**을 전공중인 학생입니다.
 
 
-## 🤨 그래서, 뭘 할줄 아는데?
+## 🤨 할줄 아는게 뭐에요?
 ----
 
 ![비밀입니다.](https://media.giphy.com/media/Dw1m8lSxkXPZC/giphy.gif)
 
-제가 뭘 할줄 아냐면...
+- 📃 Frontend
+  - HTML, CSS, Javascript
+  - React, MobX, Redux
+- 🖥 Backend
+  - Javascript, Node.JS, Express, Koa, serverless
+  - Java, Springboot
+  - Python, Flask
+- 💾 Database
+  - PL/SQL (MySQL, Oracle, PostgreSQL)
+- 📱 Mobile
+  - Java, Android
+  - Swift, SwiftUI (on learning...🐣)
+- 💡 ML/DL
+  - Python, Keras
+- 📚 Bigdata
+  - Hadoop
+  - Scala, Spark
+- 😏 그리고...
+  - C, C++, C#
 
 
-## 😒 프로젝트는 좀 해보셨나..?
+## 😒 프로젝트는 해보셨나요?
 ----
 
 ![비밀입니다.](https://media.giphy.com/media/y9hjvnO2bwJbO/giphy.gif)
