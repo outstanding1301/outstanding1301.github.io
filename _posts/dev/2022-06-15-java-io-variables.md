@@ -2,7 +2,7 @@
 layout: post
 title: "[Java] 1. 자바의 입출력과 변수"
 summary: "자바의 입출력과 변수에 대해 알아보자"
-thumbnail: "https://media.giphy.com/media/zfUrjBQDP2EntP8pVz/giphy.gif"
+thumbnail: "https://media.giphy.com/media/citBl9yPwnUOs/giphy.gif"
 category: dev
 tags: [java]
 comments: true
