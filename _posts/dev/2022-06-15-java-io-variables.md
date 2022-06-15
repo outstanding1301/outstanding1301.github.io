@@ -4,11 +4,11 @@ title: "[Java] 1. 자바의 입출력과 변수"
 summary: "자바의 입출력과 변수에 대해 알아보자"
 thumbnail: "https://media.giphy.com/media/citBl9yPwnUOs/giphy.gif"
 category: dev
-tags: [java]
+tags: [java, java-lecture]
 comments: true
 date: 2022-06-15 19:18:00
 lastmod: 2022-06-15 19:18:00
-series: java
+series: java-lecture
 sitemap: 
   changefreq: daily
   priority: 1.0
