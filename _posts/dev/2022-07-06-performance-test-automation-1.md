@@ -102,23 +102,24 @@ sitemap:
 
 ```java
 private void startHttpServer() {
-		new Thread(() -> {
-			try {
-				this.server = HttpServer.create(new InetSocketAddress(8081), 0);
-				this.server.createContext("/callback", exchange -> {
-					PgResult pgResult =
-						gson.fromJson(new InputStreamReader(exchange.getRequestBody()), PgResult.class);
-					Optional.ofNullable(unitSent.get(pgResult.getId())).ifPresent(testUnit -> testUnit.getResult().complete(pgResult));
-					String res = "ok";
-					exchange.sendResponseHeaders(200, res.length());
-					OutputStream os = exchange.getResponseBody();
-					os.write(res.getBytes());
-					os.close();
-				});
-			} catch (IOException e) { throw new RuntimeException(e); }
-			this.server.start();
-		}).start();
-	}
+  new Thread(() -> {
+    try {
+      this.server = HttpServer.create(new InetSocketAddress(8081), 0);
+      this.server.createContext("/callback", exchange -> {
+        PgResult pgResult =
+          gson.fromJson(new InputStreamReader(exchange.getRequestBody()), PgResult.class);
+        Optional.ofNullable(unitSent.get(pgResult.getId()))
+                .ifPresent(testUnit -> testUnit.getResult().complete(pgResult));
+        String res = "ok";
+        exchange.sendResponseHeaders(200, res.length());
+        OutputStream os = exchange.getResponseBody();
+        os.write(res.getBytes());
+        os.close();
+      });
+    } catch (IOException e) { throw new RuntimeException(e); }
+    this.server.start();
+  }).start();
+}
 ```
 
 > ![](https://media.giphy.com/media/l2JdT331SygGYI4wg/giphy.gif)  
