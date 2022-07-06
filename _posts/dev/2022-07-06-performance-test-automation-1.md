@@ -87,7 +87,7 @@ sitemap:
 > ~~메인_함수님만_믿습니다.jpg~~
 >
 >
-> ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3d091f6c-8879-4c83-8721-632c0a28eaa0/Untitled.png)
+> ![trash-code](https://github.com/outstanding1301/outstanding1301.github.io/blob/master/imgs/dev/2022-07-06-performance-test-automation-1/trash-code.png?raw=true)
 >
 
 `PdfGateway`는 배치프로그램이기 때문에, 변환 결과를 Http 응답으로 주지 않습니다.
@@ -154,7 +154,7 @@ private void startHttpServer() {
 > 만나서 반가웠고 다신 보지말자 :)
 >
 >
-> ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb7b43f6-86ce-44cb-9049-3ecaa45a7137/Untitled.png)
+> ![report](https://github.com/outstanding1301/outstanding1301.github.io/blob/master/imgs/dev/2022-07-06-performance-test-automation-1/report.png?raw=true)
 >
 
 매번 성능 측정이 필요할때마다 이걸 계속 수동으로 반복해야한다니…
